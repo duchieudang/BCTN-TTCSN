@@ -1,0 +1,96 @@
+body {
+            background: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 40px 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-box img {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .header .text-gray-900 {
+            color: #555;
+            font-size: 18px;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Cải thiện giao diện nút đăng nhập */
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 25px;
+            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        /* Thêm viền bo tròn cho trường nhập liệu */
+        .form-control {
+            border-radius: 25px;
+            padding: 10px 15px;
+            font-size: 15px;
+        }
+
+        .input-group-text {
+            border-radius: 25px 0 0 25px;
+            background-color: #e9ecef;
+            color: #495057;
+        }
+
+        /* Giữ nguyên kích thước icon */
+        .input-group-text i {
+            font-size: 14px;
+        }
+
+        input[type="password"],
+        input[type="text"] {
+            border-radius: 0 25px 25px 0;
+        }
+
+        label {
+            display: none;
+        }

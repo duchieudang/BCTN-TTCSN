@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+	background-color: #f4f7fa;
+}
+
+.content {
+	margin-left: 270px;
+}
+
+.table th, .table td {
+	vertical-align: middle;
+}
+
+.table-bordered th, .table-bordered td {
+	border: 1px solid #dee2e6;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.table-responsive {
+	margin-top: 20px;
+}
+
+.table-light {
+	background-color: #f8f9fa !important;
+}
+
+.table tbody tr:hover {
+	background-color: #e9ecef;
+}
+
+.btn-action {
+	min-width: 80px;
+}
+
+.class-section {
+	margin-top: 60px;
+}
